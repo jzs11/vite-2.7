@@ -1,9 +1,6 @@
 <template>
-  <VBreadcrumb />
   <div class="grid col-12">
-    <VFullScreenLoadingState v-if="!isReady" />
     <div
-      v-else
       class="col-3 md-4 lg-4 workbook-card"
       v-for="item in workbooks.filter((p) => !p.isHidden)"
       :key="item.name"
@@ -27,7 +24,6 @@ import { useAsyncState } from '@vueuse/core';
 import router from '@/ts/router';
 import { WorkbookDefinition } from '@/ts/middleware/web-api';
 import WorkbooksStore from '@/ts/stores/WorkbooksStore';
-import VFullScreenLoadingState from '@/components/VFullScreenLoadingState.vue';
 import VBrowseCard from './BrowseCard.vue';
 
 const store = inject('WorkbooksStore') as WorkbooksStore;

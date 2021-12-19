@@ -1,8 +1,5 @@
 <template>
-  <VFullScreenLoadingState v-if="!isReady" />
-
   <div
-    v-else
     class="pt-2"
   >
     <div
@@ -24,7 +21,6 @@ import {
 import { useRoute } from 'vue-router';
 import { useAsyncState, useTitle, useWindowSize } from '@vueuse/core';
 import { getBreadcrumbForWorkbook } from '@/ts/utils/BreadcrumbHub';
-import VFullScreenLoadingState from '@/components/VFullScreenLoadingState.vue';
 import { WorkbookDefinition } from '@/ts/middleware/web-api';
 import EventBus from '@/ts/utils/EventBus';
 import { Topics } from '@/ts/Enums';

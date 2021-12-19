@@ -55,20 +55,6 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import(/* webpackChunkName: "workbook" */ '@/modules/workbook/Workbook.vue'),
       },
 
-      {
-        path: Paths.New,
-        component: () => import(/* webpackChunkName: "workbook-new" */ '@/modules/workbook/NewWorkbook.vue'),
-        meta: {
-          tabTitle: 'New Workbook',
-        },
-      },
-      {
-        path: 'edit/:id',
-        component: () => import(/* webpackChunkName: "workbook-edit" */ '@/modules/workbook/EditWorkbook.vue'),
-        meta: {
-          tabTitle: 'Edit Workbook',
-        },
-      },
     ],
   },
 
