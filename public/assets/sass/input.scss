@@ -1,0 +1,14 @@
+.borderless-input {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 0;
+  border: none;
+}
+
+.column-width-input {
+  height: 25px;
+  padding-right: 10px;
+  input {
+    width: 50px;
+  }
+}

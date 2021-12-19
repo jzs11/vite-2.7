@@ -1,0 +1,60 @@
+/* Add your customizations of the layout variables here */
+.app-login-form {
+  min-width: 300px;
+}
+
+#loginHeaderH1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin-top: 70px;
+  background: #ffffff;
+}
+
+.main-user-menu {
+  min-width: 300px !important;
+}
+.main-user-menu li:first-child {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+.public-layout-image-footer > p {
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.public-layout-image-footer .icons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  display: inline-flex;
+  padding-top: 1rem;
+}
+.public-layout-image-footer .icons i {
+  font-size: 22px;
+  color: #2eaadc;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+  background: #ffffff;
+  opacity: 0.7;
+}
+.public-layout-image-footer .icons i:hover {
+  opacity: 1;
+}

@@ -1,0 +1,64 @@
+@import 'layout/mixins';
+@import 'variables/layout/common';
+@import 'overrides/layout_variables';
+
+.app-login-form {
+  min-width: 300px;
+}
+
+#loginHeaderH1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  margin-top: 70px;
+  background: #ffffff;
+}
+
+.main-user-menu {
+  min-width: 300px !important;
+
+  li:first-child {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    pointer-events: none;
+    font-weight: bold;
+  }
+}
+
+.public-layout-image-footer {
+  > p {
+    font-weight: 600;
+    margin: 0;
+    color: #ffffff;
+    margin-right: 20px;
+  }
+
+  .icons {
+    @include flex();
+    @include flex-align-center();
+    display: inline-flex;
+    padding-top: 1rem;
+
+    i {
+      font-size: 22px;
+      color: $primaryColor;
+      margin-right: 20px;
+      cursor: pointer;
+      height: 32px;
+      width: 32px;
+      border-radius: 50%;
+      @include flex();
+      @include flex-align-center();
+      @include flex-justify-center();
+      transition: opacity $transitionDuration;
+      background: #ffffff;
+      opacity: 0.7;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

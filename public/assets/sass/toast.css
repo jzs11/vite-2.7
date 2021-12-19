@@ -1,0 +1,96 @@
+.p-toast {
+  opacity: 0.9 !important;
+}
+
+.p-toast .p-toast-message {
+  margin: 0 0 1rem 0;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 0.375rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content {
+  padding: 1rem;
+  border-width: 0 0 0 6px;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-text {
+  margin: 0 0 0 1rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-message-icon {
+  font-size: 2rem;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-summary {
+  font-weight: 700;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-detail {
+  margin: 0.5rem 0 0 0;
+}
+
+.p-toast .p-toast-message .p-toast-icon-close {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: transparent;
+  transition: none;
+}
+
+.p-toast .p-toast-message .p-toast-icon-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.p-toast .p-toast-message .p-toast-icon-close:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 1px #6366f1;
+}
+
+.p-toast .p-toast-message.p-toast-message-info {
+  background: #eff6ff;
+  border: none;
+  border-width: 0 0 0 6px;
+  color: #2563eb;
+}
+
+.p-toast .p-toast-message.p-toast-message-info .p-toast-message-icon,
+.p-toast .p-toast-message.p-toast-message-info .p-toast-icon-close {
+  color: #2563eb;
+}
+
+.p-toast .p-toast-message.p-toast-message-success {
+  background: #ecfdf5;
+  border: snone;
+  border-width: 0 0 0 6px;
+  color: #059669;
+}
+
+.p-toast .p-toast-message.p-toast-message-success .p-toast-message-icon,
+.p-toast .p-toast-message.p-toast-message-success .p-toast-icon-close {
+  color: #059669;
+}
+
+.p-toast .p-toast-message.p-toast-message-warn {
+  background: #fef3c7;
+  border: none;
+  border-width: 0 0 0 6px;
+  color: #d97706;
+}
+
+.p-toast .p-toast-message.p-toast-message-warn .p-toast-message-icon,
+.p-toast .p-toast-message.p-toast-message-warn .p-toast-icon-close {
+  color: #d97706;
+}
+
+.p-toast .p-toast-message.p-toast-message-error {
+  background: #fef3c7;
+  border: none;
+  border-width: 0 0 0 6px;
+  color: #dc2626;
+}
+
+.p-toast .p-toast-message.p-toast-message-error .p-toast-message-icon,
+.p-toast .p-toast-message.p-toast-message-error .p-toast-icon-close {
+  color: #dc2626;
+}

@@ -1,0 +1,37 @@
+.v-div-button {
+  padding: 5px 15px;
+  font-weight: 500;
+}
+
+.v-div-button-sm-padding {
+  padding: 5px 10px;
+}
+
+.focusable-field {
+  user-select: none;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(25, 23, 17, 0.6);
+}
+.focusable-field .label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.focusable-field i {
+  font-weight: 600;
+}
+.focusable-field .inner-field {
+  border-radius: 3px;
+  padding: 2px 3px;
+}
+.focusable-field .inner-field:hover {
+  background: #b4b4b3;
+}
+
+.v-hover {
+  transition: background 30ms ease-in 0s;
+}
+.v-hover:hover {
+  background: #e8e7e4;
+}

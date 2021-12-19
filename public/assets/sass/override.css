@@ -1,0 +1,91 @@
+.dx-scrollable-scroll-content {
+  background-color: #2eaadc;
+}
+
+.v-scroll-panel .p-scrollpanel-wrapper {
+  border-right: 9px solid #f4f4f4;
+}
+
+.v-scroll-panel .p-scrollpanel-bar {
+  background-color: #d3d1cb;
+  opacity: 1;
+  transition: background-color 0.3s;
+}
+
+.v-scroll-panel .p-scrollpanel-bar:hover {
+  background-color: #d3d1cb;
+}
+
+.v-scroll-panel .p-scrollpanel-wrapper {
+  border-right: 11px solid #f4f4f4;
+}
+
+.p-scrollpanel-bar-y {
+  width: 11px;
+}
+
+.v-scroll-panel div.p-scrollpanel-bar {
+  border-radius: 0;
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+  box-shadow: none;
+  border-color: #d3d1cb;
+}
+
+.p-button {
+  padding: 3px 8px 3px;
+  height: 28px !important;
+  font-weight: 400;
+  transition: background 20ms ease-in 0s;
+}
+
+.dx-treeview-item {
+  border-radius: 5px;
+  padding: 2px 3px;
+  margin-bottom: 1px;
+}
+
+.dx-treeview-item-without-checkbox.dx-state-focused > .dx-treeview-item {
+  background-color: #d5eef8;
+  color: #495057;
+}
+
+.p-splitter .p-splitter-gutter {
+  background-color: transparent;
+  width: 2px !important;
+}
+.p-splitter .p-splitter-gutter .p-splitter-gutter-handle {
+  opacity: 0;
+  height: 50px;
+  transition: opacity 3s;
+}
+
+.p-splitter-gutter:hover {
+  width: 2px !important;
+}
+.p-splitter-gutter:hover .p-splitter-gutter-handle {
+  height: 50px;
+  opacity: 1;
+  transition: opacity 0.1s;
+}
+
+.dx-pager {
+  padding-bottom: 0px;
+}
+
+.dx-pager .dx-page-sizes .dx-page-size {
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+.dx-pager .dx-page-sizes .dx-page-size + .dx-selection {
+  background-color: #e8e7e4;
+}
+
+.dx-pager .dx-pages .dx-page {
+  padding: 4px 6px;
+  border-radius: 3px;
+}
+.dx-pager .dx-pages .dx-page + .dx-selection {
+  background-color: #e8e7e4;
+}

@@ -1,0 +1,28 @@
+.v-editable-header {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 3px 3px;
+  width: fit-content;
+  line-height: 45px;
+  color: rgb(55, 53, 47);
+  cursor: text;
+}
+
+span.table-title-overview-icon {
+  background: none;
+  i {
+    padding-top: 4px;
+    padding-right: 5px;
+    font-size: 30px;
+  }
+}
+
+.sub-header {
+  font-size: 14px;
+  color: rgb(55, 53, 47);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 12 px;
+  border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}

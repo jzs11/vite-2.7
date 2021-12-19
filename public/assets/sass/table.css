@@ -1,0 +1,141 @@
+.dx-datagrid {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.dx-widget {
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.cell-chip {
+  border-radius: 5px;
+  padding: 0px 3.5rem;
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  width: -webkit-fill-available;
+}
+.cell-chip div.p-chip-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+span.dx-datagrid-nodata {
+  display: none;
+}
+
+div.dx-datagrid-headers {
+  border-bottom: none;
+}
+
+.dx-datagrid-borders > .dx-datagrid-headers,
+.dx-datagrid-borders > .dx-datagrid-rowsview,
+.dx-datagrid-borders > .dx-datagrid-total-footer {
+  border-left: none;
+  border-right: none;
+}
+
+.dx-datagrid .dx-row > td {
+  padding: 4px 10px 5px;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused) > tr > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover > tr > td {
+  background-color: #d5eef8 !important;
+}
+
+.dx-datagrid .dx-column-lines > td {
+  border-left: none !important;
+  border-right: 1px solid #ededec;
+}
+
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused).dx-column-lines > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused).dx-column-lines > tr > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover.dx-column-lines > td,
+.dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused):hover.dx-column-lines > tr > td {
+  border-left: none;
+  border-right: 1px solid rgba(206, 206, 206, 0.658);
+}
+
+.dx-datagrid-table .dx-data-row.dx-state-hover:not(.dx-selection):not(.dx-row-inserted):not(.dx-row-removed):not(.dx-edit-row):not(.dx-row-focused) > td:not(.dx-focused) {
+  background-color: transparent;
+  color: #333;
+}
+
+.dx-datagrid-borders .dx-datagrid-rowsview,
+.dx-datagrid-headers + .dx-datagrid-rowsview {
+  border-top: none;
+}
+
+.dx-datagrid-borders > .dx-datagrid-rowsview,
+.dx-datagrid-borders > .dx-datagrid-total-footer {
+  border-bottom: none;
+}
+
+.dx-freespace-row {
+  display: none;
+}
+
+.key-field {
+  line-height: 1.5;
+  white-space: normal;
+  word-break: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: none;
+  background-image: linear-gradient(to right, rgba(55, 53, 47, 0.16) 0%, rgba(55, 53, 47, 0.16) 100%);
+  background-repeat: repeat-x;
+  background-position: 0px 100%;
+  background-size: 100% 1px;
+  font-weight: 500;
+}
+
+tr div.header-button {
+  opacity: 0;
+  height: 25px;
+  font-size: smaller;
+  padding: 0px 3px;
+}
+
+tr.dx-state-hover div.header-button {
+  opacity: 1;
+}
+
+table.dx-datagrid-table tbody > tr:nth-last-child(2) {
+  border-bottom: 1px solid rgba(206, 206, 206, 0.658);
+}
+table.dx-datagrid-table tbody > tr > td {
+  vertical-align: middle !important;
+}
+
+.table-container div.dx-widget.dx-visibility-change-handler {
+  width: 100%;
+  max-width: -webkit-fill-available !important;
+}
+
+div.main-grid {
+  width: 100%;
+  min-height: 10vh;
+  max-height: 70vh;
+  padding: 2px;
+  padding-top: 10px;
+}
+
+div.dx-datagrid-headers {
+  border-bottom: none;
+}
+
+div.dx-datagrid-content {
+  user-select: none !important;
+}
+
+.relation-grid {
+  min-height: 250px;
+  max-height: 600px;
+  max-width: -webkit-fill-available !important;
+}
+
+.dx-virtual-row {
+  display: none;
+}
