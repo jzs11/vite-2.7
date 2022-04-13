@@ -1,22 +1,13 @@
 <template>
-  <router-view />
-  <Toast position="bottom-right" />
-  <ConfirmDialog />
+  <DxDataGrid id="dataGrid">
+    <!-- Configuration goes here -->
+  </DxDataGrid>
 </template>
 
 <script lang="ts" setup>
-import { provide } from 'vue';
-import { useToast } from 'primevue/usetoast';
-import { useConfirm } from 'primevue/useconfirm';
-import startWatch from '@/ts/utils/EventsHub';
-import { IConfirmationService } from '@/ts/Interfaces';
+import { DxDataGrid } from 'devextreme-vue/data-grid';
+import 'devextreme/dist/css/dx.light.css';
 
-const confirm = useConfirm() as IConfirmationService;
-const toast = useToast();
-
-provide('useConfirm', confirm);
-provide('useToast', toast);
-startWatch(toast);
 </script>
 
 <style lang="scss">

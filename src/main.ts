@@ -43,13 +43,10 @@ import ToastService from 'primevue/toastservice';
 import ToggleButton from 'primevue/togglebutton';
 import Tooltip from 'primevue/tooltip';
 
-import router from '@/ts/router/index';
-
 import App from './App.vue';
 
 createApp(App)
   .use(PrimeVue, { ripple: true })
-  .use(router)
   .use(ConfirmationService)
   .use(ToastService)
 
