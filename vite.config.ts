@@ -37,6 +37,11 @@ export default defineConfig({
         find: '@',
         replacement: path.resolve(__dirname, 'src'),
       },
+      { find: 'devextreme/ui', replacement: 'devextreme/esm/ui' },
+      {
+        find: '@vue/runtime-core',
+        replacement: '@vue/runtime-core/dist/runtime-core.esm-bundler.js',
+      },
     ],
   },
   css: { preprocessorOptions: { css: { charset: false } } },
