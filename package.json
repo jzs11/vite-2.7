@@ -2,7 +2,9 @@
   "name": "vite-regression-playground",
   "version": "",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build-sass": "sass public/assets --no-source-map",
+    "build": "npm run build-sass && vue-tsc --noEmit && vite build"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "2.3.1",

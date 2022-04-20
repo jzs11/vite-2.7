@@ -4,7 +4,7 @@
   padding: 3px 3px;
   width: fit-content;
   line-height: 45px;
-  color: #37352f;
+  color: rgb(55, 53, 47);
   cursor: text;
 }
 
@@ -19,7 +19,7 @@ span.table-title-overview-icon i {
 
 .sub-header {
   font-size: 14px;
-  color: #37352f;
+  color: rgb(55, 53, 47);
   font-weight: 500;
   display: flex;
   align-items: center;

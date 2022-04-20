@@ -46,7 +46,7 @@ div.dx-datagrid-headers {
 
 .dx-datagrid .dx-column-lines > td {
   border-left: none !important;
-  border-right: 1px solid #ededec;
+  border-right: 1px solid rgb(237, 237, 236);
 }
 
 .dx-datagrid-rowsview .dx-selection.dx-row:not(.dx-row-focused).dx-column-lines > td,

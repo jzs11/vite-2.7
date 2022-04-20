@@ -24,7 +24,7 @@
   -webkit-transition: opacity 0.3s;
 }
 .app-splitter .header {
-  color: #37352f;
+  color: rgb(55, 53, 47);
 }
 .app-splitter .large-padding {
   padding-left: 1rem;
@@ -67,7 +67,7 @@
 .settings-and-members-container .left-side-container {
   width: 200px;
   height: 100%;
-  background: #f7f6f3;
+  background: rgb(247, 246, 243);
   flex-grow: 0;
   flex-shrink: 0;
 }
