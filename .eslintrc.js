@@ -20,7 +20,7 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
     'implicit-arrow-linebreak': 'off',
-    'max-len': ['error', { code: 120 }],
+    'max-len': ['error', { code: 150 }],
     'no-unused-expressions': 'off',
     'no-param-reassign': 'off',
     'no-useless-constructor': 'off',
@@ -32,6 +32,7 @@ module.exports = {
     'vuejs-accessibility/form-control-has-label': 'off',
     'vuejs-accessibility/label-has-for': 'off',
     'vuejs-accessibility/click-events-have-key-events': 'off',
+    'vue/require-prop-types': 'off',
     'class-methods-use-this': 'off',
   },
 

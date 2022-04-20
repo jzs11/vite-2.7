@@ -2,14 +2,12 @@ import vue from '@vitejs/plugin-vue';
 import path from 'path';
 import { defineConfig } from 'vite';
 import eslintPlugin from 'vite-plugin-eslint';
-import checker from 'vite-plugin-checker';
 import https from 'https';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     vue(),
-    checker({ typescript: true, vueTsc: true }),
     eslintPlugin({ cache: true, fix: true, exclude: ['node_modules', './src/components/VCoverImage.vue'] }),
   ],
 
