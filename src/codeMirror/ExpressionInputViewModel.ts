@@ -4,6 +4,7 @@ import { basicSetup, EditorState, EditorView } from '@codemirror/basic-setup';
 // import { mathematica } from '@codemirror/legacy-modes/mode/mathematica';
 // import { lineNumbers } from '@codemirror/gutter';
 import { autocompletion, CompletionContext } from '@codemirror/autocomplete';
+import { javascript } from '@codemirror/lang-javascript';
 
 class FormulaInputViewModel {
   initialState: EditorState;
@@ -13,18 +14,10 @@ class FormulaInputViewModel {
   constructor() {
     // Create initial state for the editor
     this.initialState = EditorState.create({
-      doc: '[A] + 1',
+      doc: 'console.log("Hello world")',
       extensions: [
         basicSetup,
-        // StreamLanguage.define(mathematica),
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        // EditorView.updateListener.of((v:{state: any}) => {
-        //   // console.log(v.state.doc.text[0]);
-        //   this.fireChange(v.state.doc.text[0]);
-        // }),
-        EditorState.transactionFilter.of((tr) => (tr.newDoc.lines > 1 ? [] : tr)),
-        // lineNumbers({ formatNumber: () => 'Formula:' }),
-        autocompletion({ override: [this.myCompletions.bind(this)] }),
+        javascript(),
       ],
     });
   }
