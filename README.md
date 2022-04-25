@@ -1,1 +1,1 @@
-A repo for reporting vite bugs 🎃
+A repo for reporting any bugs 🎃
