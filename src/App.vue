@@ -1,5 +1,8 @@
 <template>
+  <ExpressionEditorVue />
+
   <DxDataGrid
+    v-if="false"
     id="gridContainer"
 
     :data-source="dataSource"
@@ -48,6 +51,7 @@ import {
   DxColumn,
 } from 'devextreme-vue/data-grid';
 import generateData from './data';
+import ExpressionEditorVue from './codeMirror/ExpressionEditor.vue';
 
 const dataSource = generateData(200);
 
