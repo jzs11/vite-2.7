@@ -7,11 +7,11 @@
     "build": "npm run build-sass && vue-tsc --noEmit && vite build"
   },
   "dependencies": {
-    "@codemirror/autocomplete": "0.19.15",
-    "@codemirror/basic-setup": "0.19.3",
+    "@codemirror/autocomplete": "^0.20.0",
+    "@codemirror/basic-setup": "^0.20.0",
     "@codemirror/gutter": "^0.19.9",
-    "@codemirror/lang-javascript": "0.19.7",
-    "@codemirror/legacy-modes": "0.19.1",
+    "@codemirror/lang-javascript": "^0.20.0",
+    "@codemirror/legacy-modes": "^0.20.0",
     "@codemirror/stream-parser": "^0.19.5",
     "@microsoft/signalr": "^6.0.1",
     "@vicons/antd": "^0.12.0",
